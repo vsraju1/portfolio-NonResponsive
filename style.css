@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 80vw;
+}
+
+.header {
+    background-color: white;
+    height: 100vh;
+}
+
+/*Nav-section*/
+
+.nav-section {
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+.nav {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact-style {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.contact-style:hover {
+    background-color: white;
+    color: rgb(120, 120, 217);
+}
+
+.contact-style {
+    background-color: rgb(120, 120, 217);
+    border: 2px solid rgb(120, 120, 217);
+    color: white;
+
+}
+
+/*nav-secction close*/
+
+/*Header section*/
+.name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75vw;
+    height: 70vh;
+    padding-bottom: 50px;
+}
+
+.name {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.img {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 4px solid rgb(120, 120, 217);
+}
+
+.title-name {
+    font-size: 3rem;
+}
+
+.tag-design {
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(120, 120, 217);
+}
+
+/*Header-section closed*/
+
+/*portfolio-section*/
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.websites-heading {
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.website-cards {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.cards {
+
+    display: flex;
+    height: 60vh;
+    width: 23vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 5%;
+
+}
+
+.img-item {
+    display: flex;
+    flex-shrink: 10;
+
+    margin: 20px 10px;
+    border: 1px solid black;
+
+}
+
+.description {
+    Margin: 10px;
+    margin-top: 30px;
+
+}
+
+.web-heading {
+    padding: 10px 0;
+
+}
+
+.web-description {
+    padding: 10px 0;
+
+}
+
+.web-links {
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.web-links:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Portfolio section closed*/
+
+/*About section starts*/
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.about-img-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1rem;
+    color: rgb(120, 120, 217);
+}
+
+.about-description {
+    width: 50%;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0 10rem;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: rgb(120, 120, 217);
+    border: 2px solid rgb(120, 120, 217);
+    color: white;
+
+}
+
+.resume:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+/* About section closed*/
+
+/* contact-setion starts*/
+.contact-section{
+    width: 100%;
+    height: 80vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details{
+    width: 40vw;
+    height: 40vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image{
+    border-radius: 50%;
+    
+}
+
+.contact-name{
+    color: rgb(120, 120, 217);
+}
+
+#contact-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*about-section closed*/
+
+/*footer-section starts*/
+.footer-elements{
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.copyright{
+    font-size: 1rem;
+}
+
+.footer-links{
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+/*footer-section closed*/
